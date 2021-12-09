@@ -1,0 +1,17 @@
+hat-aio
+hat-chatter
+hat-event
+hat-gateway
+hat-gui
+hat-json
+hat-juggler
+hat-monitor
+hat-orchestrator
+hat-peg
+hat-sbs
+hat-sqlite3
+hat-util
+hat-syslog
+hat-manager
+
+doit

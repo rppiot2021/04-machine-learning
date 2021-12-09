@@ -1,0 +1,8 @@
+/.doit.db
+/build
+/cache
+/dist
+/node_modules
+__pycache__
+.venv
+venv
