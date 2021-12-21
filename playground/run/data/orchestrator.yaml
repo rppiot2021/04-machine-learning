@@ -18,7 +18,7 @@ components:
     - hat-manager
     - --conf
     - ./data/manager.yaml
-    delay: 0
+    delay: 2
     name: monitor
     revive: false
     start_delay: 0.5
@@ -64,6 +64,17 @@ components:
     - ./data/gui.yaml
     delay: 3
     name: gui
+    revive: false
+    start_delay: 0.5
+    create_timeout: 2
+    sigint_timeout: 2
+    sigkill_timeout: 2
+-   args:
+    - aimm-server
+    - --conf
+    - ./data/aimm.yaml
+    delay: 3
+    name: aimm
     revive: false
     start_delay: 0.5
     create_timeout: 2

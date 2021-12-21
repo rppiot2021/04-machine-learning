@@ -30,8 +30,8 @@ monitor:
     name: gui
 event_server_group: event
 adapters:
-  - module: project.adapters.example
-    name: adapter
+  - module: air_supervision.adapters.timeseries
+    name: timeseries
 views:
   - name: login
     view_path: ../../build/views/login

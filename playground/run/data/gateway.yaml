@@ -1,7 +1,8 @@
 ---
 devices:
-    - module: project.devices.example
+    - module: air_supervision.devices.air_readings
       name: device
+      dataset_path: ../../dataset/sanatized.csv
 event_server_group: event
 gateway_name: gateway
 log:
